@@ -1,0 +1,214 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTENEDOR LAYOUT GENERAL */
+main {
+    display: flex;
+}
+
+
+/* Contenedor Sección Principal */
+.contenedorContenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.Contenido {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 510px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenido img {
+    /* width: 270px; */
+    width: 55%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.Contenido h1 {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 43px;
+    text-align: center;
+    height: auto;
+}
+
+.Contenido p {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainUser {
+    display: flex;
+    width: 240px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0px 40px 5px 20px;
+    border: #A491D2;
+}
+
+/* CONTENEDOR PRINCIPAL IZQUIERDA */
+.contenedorContactos {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: thin;
+    flex: 0 0 10%;
+}
+
+/* Contenedor del estado del usuario */
+.userEstado {
+    display: flex;
+}
+
+/* Propiedades img del usuario */
+.user-Avatar img {
+    width: 38px;
+    border-radius: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: #BEC1BB;
+    margin: 10px 10px 0px 0px;
+
+}
+
+/* Formato textos del usuario */
+/* Contenedor */
+.userTexto {
+    display: flex;
+    flex-direction: column;
+}
+
+/* A. */
+.userTexto h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    
+}
+
+/* B. */
+.userTexto p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-top: 0px;
+    color: #828485;
+}
+
+/* C. Botonera de opciones de usuario */
+.userOpciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40px;
+}
+
+.userOpciones i{
+    display: flex;
+    margin: 8px;
+    color: #828485;
+}
+
+
+
+/* Propiedades botón Nuevo Chat */
+
+.nuevoChatButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    border-top-width: thin;
+    border-top-color: #BEC1BB;
+    border-top-style: solid;
+}
+
+.nuevoChatButton button{
+    padding: 15px 60px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #A491D2;
+    border: none;
+}
+
+.nuevoChatButton button:hover{
+    background-color: #CDC3E6;
+    border: none;
+}
+
+.nuevoChatButton button:focus{
+    background-color: #BEC1BB;
+    border: none;
+}
+
+
+/* Contenedor Lista de Contactos */
+.contactosLista {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* Contenedor de un contacto */
+.contactoContenedor {
+    display: flex;
+    align-items: center;
+    border-top-width: thin;
+    border-top-color: #BEC1BB;
+    border-top-style: solid;
+}
+
+/* Propiedades img de un contacto */
+.avatar img {
+    text-align: left;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: #BEC1BB;
+    margin: 20px;
+}
+
+/* Formato textos del contacto */
+.contactoTexto {
+    display: flex;
+    flex-direction: column;
+}
+
+/* A. */
+.contactoTexto h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 3px 0px;
+    color:#1B1F21;    
+}
+
+/* B. */
+.contactoTexto p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height:20px;
+    color:#444749;
+}
